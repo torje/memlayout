@@ -72,6 +72,11 @@ struct language{
     }
 }
 
+class Parser{
+  bnfreader reader;
+}
+
+
 unittest{
     {
 	auto a = bnfchoice( "frompath|fromlocal");
