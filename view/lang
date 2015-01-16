@@ -1,0 +1,5 @@
+hashinclude:#include
+frompath:"[a-z]+(?:\.h(?:pp)?)?>
+fromlocal:"[a-z]+(?:\.h(?:pp)?)?"
+linebreak:\r?\n
+string:"([^"]|\")"
